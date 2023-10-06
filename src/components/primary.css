@@ -1,0 +1,44 @@
+.primary {
+    height: calc(100vh - 120px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.primary--actual {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.primary--actual::-webkit-scrollbar {
+    width: 0;
+}
+
+.primary--actual--title {
+    min-height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    font-size: x-large; 
+    letter-spacing: 2.4px;
+}
+
+.primary--actual--content {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 16px;
+    padding: 16px;
+    justify-content: center;
+}
+
+.primary--historical {
+    height: 100%;
+    width: 28%;
+}
