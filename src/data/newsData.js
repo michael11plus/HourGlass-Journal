@@ -108,5 +108,56 @@ const newsData = [
     author: "Natalie Turner",
     },
 ];
+
+const galleryData = [
+    {
+        ref: "p001",
+        image: "./images/pic01.jpg",
+        text: "Algeria Triumphs with Independence - A jubilant celebration sweeps the nation as Algeria breaks free from France's colonial grasp.",
+        year: "1962"
+    },
+    {
+        ref: "p002",
+        image: "./images/pic02.jpg",
+        text: "End of the Colosseum's Gladiatorial Contests - The iconic Colosseum of Rome witnesses its final gladiatorial battle as changing social and political climates evolve.",
+        year: "435"
+    },
+    {
+        ref: "p003",
+        image: "./images/pic03.jpg",
+        text: "Nelson Mandela Released - After 27 years of imprisonment, Mandela walks free, becoming a beacon of hope and resilience.",
+        year: "1990"
+    },
+    {
+        ref: "p004",
+        image: "./images/pic04.jpg",
+        text: "Moon Landing Achieved - Humanity takes its first steps on an alien world as Armstrong utters the immortal words, 'That's one small step for man, one giant leap for mankind'.",
+        year: "1969"
+    },
+    {
+        ref: "p005",
+        image: "./images/pic05.jpg",
+        text: "India Embraces Freedom - The dawn of a new era begins as India sheds the chains of British colonial rule.",
+        year: "1947"
+    },
+    {
+        ref: "p006",
+        image: "./images/pic06.jpg",
+        text: "Cuban Missile Crisis Ends - A sigh of relief echoes around the world as the U.S. and the Soviet Union pull back from the brink of nuclear war.",
+        year: "1962"
+    },
+    {
+        ref: "p007",
+        image: "./images/pic07.jpg",
+        text: "First World War Concludes - The 'war to end all wars' reaches its somber conclusion, reshaping global politics and borders.",
+        year: "1918"
+    },
+    {
+        ref: "p008",
+        image: "./images/pic08.jpg",
+        text: "Birmingham Triumphs Over Plagues - Birmingham demonstrates resilience and adaptability as the city successfully navigates the challenges of 18th-century plagues.",
+        year: "1700s"
+    }
+];
   
-export default newsData;
+export { newsData, galleryData };

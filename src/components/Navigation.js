@@ -7,11 +7,16 @@ const Navigation = () => {
                 <img src='./myicon.png' alt='logo' className='nav--logo'/>
             </div>
            
-            <input 
-                type="text" 
-                placeholder="search..." 
-                className="nav--searchbar" 
-            />
+            <div className="nav--search">
+                <input 
+                    type="text" 
+                    placeholder="search..." 
+                    className="nav--searchbar" 
+                />
+                <button className='nav--searchbutton'>
+                    Search
+                </button>
+            </div> 
 
             <div className='nav--items'>
                 <div className="nav--item">Archive</div>

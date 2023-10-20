@@ -1,6 +1,7 @@
 import './primary.css';
 import NewsActual from './NewsActual';
-import newsData from '../data/newsData';
+import Gallery from './Gallery';
+import { newsData, galleryData } from '../data/newsData';
 
 const Primary = () => {
     return(
@@ -24,6 +25,11 @@ const Primary = () => {
                 </div>
             </div>
             <div className='primary--historical'>
+                <div className='primary--actual--title'>
+                    Editor's pick
+                </div>
+               
+                <Gallery />
                 
             </div>
         </div>

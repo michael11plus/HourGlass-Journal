@@ -2,7 +2,6 @@
     height: 60px;
     width: 100%;
     background-color: white;
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -26,11 +25,23 @@
     cursor: pointer;
 }
 
+.nav--search {
+    display: flex;
+    gap: 5px;
+    font-family: 'Lexend Tera';
+}
+
 .nav--searchbar {
     border-radius: 4px;
     border-color: #4F4F58;
     font-size: small;
     cursor: text;
+}
+
+.nav--searchbutton {
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
 }
 
 .nav--items {
